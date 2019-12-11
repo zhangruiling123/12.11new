@@ -1,0 +1,265 @@
+2019-12-05 13:57:52,940 ERROR 1443 [-/::1/-/4ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 1443
+hostname: zhangruilingdeMacBook-Pro.local
+
+2019-12-05 14:54:46,493 ERROR 1610 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 1610
+hostname: zhangruilingdeMacBook-Pro.local
+
+2019-12-05 14:55:17,989 ERROR 1621 [-/127.0.0.1/-/1ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 1621
+hostname: zhangruilingdeMacBook-Pro.local
+
+2019-12-05 14:58:20,272 ERROR 1650 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 1650
+hostname: zhangruilingdeMacBook-Pro.local
+
+2019-12-05 15:03:35,261 ERROR 1698 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 1698
+hostname: zhangruilingdeMacBook-Pro.local
+
+2019-12-05 15:05:05,138 ERROR 1722 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 1722
+hostname: zhangruilingdeMacBook-Pro.local
+
+2019-12-05 16:52:08,221 ERROR 2778 nodejs.Error: clean_tmpdir 2 is not match 'a-z0-9_-' in clean_tmpdir 2.js
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:234:13
+    at Array.map (<anonymous>)
+    at defaultCamelize (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:232:21)
+    at getProperties (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:193:10)
+    at ScheduleLoader.parse (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:154:28)
+    at ScheduleLoader.load (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:25:26)
+    at module.exports (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:17:6)
+    at Schedule.init (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/schedule.js:29:27)
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/agent.js:13:20
+    at Object.callFn (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+
+pid: 2778
+hostname: zhangruilingdeMacBook-Pro.local
+
+2019-12-05 16:53:07,095 ERROR 2791 nodejs.Error: clean_tmpdir 2 is not match 'a-z0-9_-' in clean_tmpdir 2.js
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:234:13
+    at Array.map (<anonymous>)
+    at defaultCamelize (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:232:21)
+    at getProperties (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:193:10)
+    at ScheduleLoader.parse (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:154:28)
+    at ScheduleLoader.load (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:25:26)
+    at module.exports (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:17:6)
+    at Schedule.init (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/schedule.js:29:27)
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/agent.js:13:20
+    at Object.callFn (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+
+pid: 2791
+hostname: zhangruilingdeMacBook-Pro.local
+
+2019-12-05 16:59:50,470 ERROR 2852 nodejs.Error: clean_tmpdir 2 is not match 'a-z0-9_-' in clean_tmpdir 2.js
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:234:13
+    at Array.map (<anonymous>)
+    at defaultCamelize (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:232:21)
+    at getProperties (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:193:10)
+    at ScheduleLoader.parse (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:154:28)
+    at ScheduleLoader.load (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:25:26)
+    at module.exports (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:17:6)
+    at Schedule.init (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/schedule.js:29:27)
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/agent.js:13:20
+    at Object.callFn (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+
+pid: 2852
+hostname: zhangruilingdeMacBook-Pro.local
+
+2019-12-09 19:29:11,895 ERROR 2269 nodejs.Error: clean_tmpdir 2 is not match 'a-z0-9_-' in clean_tmpdir 2.js
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:234:13
+    at Array.map (<anonymous>)
+    at defaultCamelize (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:232:21)
+    at getProperties (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:193:10)
+    at ScheduleLoader.parse (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:154:28)
+    at ScheduleLoader.load (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:25:26)
+    at module.exports (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:17:6)
+    at Schedule.init (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/schedule.js:29:27)
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/agent.js:13:20
+    at Object.callFn (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+
+pid: 2269
+hostname: zhangruilingdeMacBook-Pro.local
+
+2019-12-10 14:11:38,533 ERROR 1575 nodejs.Error: clean_tmpdir 2 is not match 'a-z0-9_-' in clean_tmpdir 2.js
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:234:13
+    at Array.map (<anonymous>)
+    at defaultCamelize (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:232:21)
+    at getProperties (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:193:10)
+    at ScheduleLoader.parse (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:154:28)
+    at ScheduleLoader.load (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:25:26)
+    at module.exports (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:17:6)
+    at Schedule.init (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/schedule.js:29:27)
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/agent.js:13:20
+    at Object.callFn (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+
+pid: 1575
+hostname: zhangruilingdeMacBook-Pro.local
+
+2019-12-10 20:23:32,200 ERROR 2977 nodejs.Error: clean_tmpdir 2 is not match 'a-z0-9_-' in clean_tmpdir 2.js
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:234:13
+    at Array.map (<anonymous>)
+    at defaultCamelize (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:232:21)
+    at getProperties (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:193:10)
+    at ScheduleLoader.parse (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:154:28)
+    at ScheduleLoader.load (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:25:26)
+    at module.exports (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:17:6)
+    at Schedule.init (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/schedule.js:29:27)
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/agent.js:13:20
+    at Object.callFn (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+
+pid: 2977
+hostname: zhangruilingdeMacBook-Pro.local
+

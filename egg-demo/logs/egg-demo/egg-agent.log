@@ -1,0 +1,253 @@
+2019-12-05 13:57:47,616 INFO 1442 [egg:logger] init all loggers with options: {"dir":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-05 13:57:47,621 INFO 1442 [egg:core] dump config after load, 2ms
+2019-12-05 13:57:47,647 INFO 1442 [egg-watcher] Start watching: ["/Users/zhangruiling/Desktop/zy/day04/egg-demo/app","/Users/zhangruiling/Desktop/zy/day04/egg-demo/config","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy","/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"]
+2019-12-05 13:57:47,647 INFO 1442 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app"
+2019-12-05 13:57:47,647 INFO 1442 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/config"
+2019-12-05 13:57:47,647 INFO 1442 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks"
+2019-12-05 13:57:47,647 INFO 1442 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy"
+2019-12-05 13:57:47,647 INFO 1442 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"
+2019-12-05 13:57:47,648 INFO 1442 [egg-watcher:agent] watcher start success
+2019-12-05 13:57:47,652 INFO 1442 [egg:core] dump config after ready, 2ms
+2019-12-05 13:57:48,025 INFO 1442 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/app/public","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2189743,"size":64,"blocks":0,"atimeMs":1575525468010.962,"mtimeMs":1575525468010.962,"ctimeMs":1575525468010.962,"birthtimeMs":1575525468010.962,"atime":"2019-12-05T05:57:48.011Z","mtime":"2019-12-05T05:57:48.011Z","ctime":"2019-12-05T05:57:48.011Z","birthtime":"2019-12-05T05:57:48.011Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-12-05 13:57:57,876 INFO 1442 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/app/public","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2189743,"size":64,"blocks":0,"atimeMs":1575525477000,"mtimeMs":1575525477000,"ctimeMs":1575525477873.6143,"birthtimeMs":1575525468000,"atime":"2019-12-05T05:57:57.000Z","mtime":"2019-12-05T05:57:57.000Z","ctime":"2019-12-05T05:57:57.874Z","birthtime":"2019-12-05T05:57:48.000Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-12-05 13:58:16,086 WARN 1442 [agent:development] reload worker because /Users/zhangruiling/Desktop/zy/day04/egg-demo/config/config.default.js change
+2019-12-05 13:58:15,883 INFO 1442 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2162328,"size":21,"blocks":8,"atimeMs":1575525495821.081,"mtimeMs":1575525495821.5461,"ctimeMs":1575525495821.5461,"birthtimeMs":1575524789657.284,"atime":"2019-12-05T05:58:15.821Z","mtime":"2019-12-05T05:58:15.822Z","ctime":"2019-12-05T05:58:15.822Z","birthtime":"2019-12-05T05:46:29.657Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-05 14:10:44,963 WARN 1442 [agent:development] reload worker because /Users/zhangruiling/Desktop/zy/day04/egg-demo/app/router.js change
+2019-12-05 14:10:44,762 INFO 1442 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2165522,"size":152,"blocks":8,"atimeMs":1575526244700.163,"mtimeMs":1575526244700.6724,"ctimeMs":1575526244700.6724,"birthtimeMs":1575524958767.4897,"atime":"2019-12-05T06:10:44.700Z","mtime":"2019-12-05T06:10:44.701Z","ctime":"2019-12-05T06:10:44.701Z","birthtime":"2019-12-05T05:49:18.767Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-05 14:12:03,508 WARN 1442 [agent:development] reload worker because /Users/zhangruiling/Desktop/zy/day04/egg-demo/app/controller/user.js rename
+2019-12-05 14:12:03,304 INFO 1442 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2191502,"size":0,"blocks":0,"atimeMs":1575526323303.8208,"mtimeMs":1575526323192.0237,"ctimeMs":1575526323192.0237,"birthtimeMs":1575526323192.0237,"atime":"2019-12-05T06:12:03.304Z","mtime":"2019-12-05T06:12:03.192Z","ctime":"2019-12-05T06:12:03.192Z","birthtime":"2019-12-05T06:12:03.192Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-05 14:12:04,189 WARN 1442 [agent:development] reload worker because /Users/zhangruiling/Desktop/zy/day04/egg-demo/app/controller/user.js change
+2019-12-05 14:12:03,986 INFO 1442 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2191502,"size":0,"blocks":0,"atimeMs":1575526323974.2314,"mtimeMs":1575526323192.0237,"ctimeMs":1575526323974.7327,"birthtimeMs":1575526323192.0237,"atime":"2019-12-05T06:12:03.974Z","mtime":"2019-12-05T06:12:03.192Z","ctime":"2019-12-05T06:12:03.975Z","birthtime":"2019-12-05T06:12:03.192Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-05 14:13:53,428 WARN 1442 [agent:development] reload worker because /Users/zhangruiling/Desktop/zy/day04/egg-demo/app/controller/user.js change
+2019-12-05 14:13:53,227 INFO 1442 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2191502,"size":141,"blocks":8,"atimeMs":1575526433165.739,"mtimeMs":1575526433166.2693,"ctimeMs":1575526433166.2693,"birthtimeMs":1575526323192.0237,"atime":"2019-12-05T06:13:53.166Z","mtime":"2019-12-05T06:13:53.166Z","ctime":"2019-12-05T06:13:53.166Z","birthtime":"2019-12-05T06:12:03.192Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-05 14:16:32,122 WARN 1442 [agent:development] reload worker because /Users/zhangruiling/Desktop/zy/day04/egg-demo/config/config.default.js change
+2019-12-05 14:16:31,921 INFO 1442 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2162328,"size":87,"blocks":8,"atimeMs":1575526591857.2366,"mtimeMs":1575526591858.7888,"ctimeMs":1575526591858.7888,"birthtimeMs":1575524789657.284,"atime":"2019-12-05T06:16:31.857Z","mtime":"2019-12-05T06:16:31.859Z","ctime":"2019-12-05T06:16:31.859Z","birthtime":"2019-12-05T05:46:29.657Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-05 14:16:35,566 WARN 1442 [agent:development] reload worker because /Users/zhangruiling/Desktop/zy/day04/egg-demo/config/config.default.js change
+2019-12-05 14:16:35,313 INFO 1442 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2162328,"size":87,"blocks":8,"atimeMs":1575526595306.242,"mtimeMs":1575526595306.6902,"ctimeMs":1575526595306.6902,"birthtimeMs":1575524789657.284,"atime":"2019-12-05T06:16:35.306Z","mtime":"2019-12-05T06:16:35.307Z","ctime":"2019-12-05T06:16:35.307Z","birthtime":"2019-12-05T05:46:29.657Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-05 14:16:35,363 INFO 1442 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2162328,"size":87,"blocks":8,"atimeMs":1575526595306.242,"mtimeMs":1575526595306.6902,"ctimeMs":1575526595306.6902,"birthtimeMs":1575524789657.284,"atime":"2019-12-05T06:16:35.306Z","mtime":"2019-12-05T06:16:35.307Z","ctime":"2019-12-05T06:16:35.307Z","birthtime":"2019-12-05T05:46:29.657Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-05 14:23:30,143 INFO 1496 [egg:logger] init all loggers with options: {"dir":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-05 14:23:30,150 INFO 1496 [egg:core] dump config after load, 3ms
+2019-12-05 14:23:30,175 INFO 1496 [egg-watcher] Start watching: ["/Users/zhangruiling/Desktop/zy/day04/egg-demo/app","/Users/zhangruiling/Desktop/zy/day04/egg-demo/config","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy","/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"]
+2019-12-05 14:23:30,175 INFO 1496 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app"
+2019-12-05 14:23:30,176 INFO 1496 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/config"
+2019-12-05 14:23:30,176 INFO 1496 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks"
+2019-12-05 14:23:30,176 INFO 1496 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy"
+2019-12-05 14:23:30,176 INFO 1496 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"
+2019-12-05 14:23:30,176 INFO 1496 [egg-watcher:agent] watcher start success
+2019-12-05 14:23:30,183 INFO 1496 [egg:core] dump config after ready, 2ms
+2019-12-05 14:27:03,464 WARN 1496 [agent:development] reload worker because /Users/zhangruiling/Desktop/zy/day04/egg-demo/app/controller/user.js change
+2019-12-05 14:27:03,257 INFO 1496 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2191502,"size":329,"blocks":8,"atimeMs":1575527223194.5515,"mtimeMs":1575527223195.1345,"ctimeMs":1575527223195.1345,"birthtimeMs":1575526323192.0237,"atime":"2019-12-05T06:27:03.195Z","mtime":"2019-12-05T06:27:03.195Z","ctime":"2019-12-05T06:27:03.195Z","birthtime":"2019-12-05T06:12:03.192Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-05 14:28:03,482 WARN 1496 [agent:development] reload worker because /Users/zhangruiling/Desktop/zy/day04/egg-demo/app/controller/user.js change
+2019-12-05 14:28:03,279 INFO 1496 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2191502,"size":363,"blocks":8,"atimeMs":1575527283216.491,"mtimeMs":1575527283217.7483,"ctimeMs":1575527283217.7483,"birthtimeMs":1575526323192.0237,"atime":"2019-12-05T06:28:03.216Z","mtime":"2019-12-05T06:28:03.218Z","ctime":"2019-12-05T06:28:03.218Z","birthtime":"2019-12-05T06:12:03.192Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-05 14:28:11,597 WARN 1496 [agent:development] reload worker because /Users/zhangruiling/Desktop/zy/day04/egg-demo/app/controller/user.js change
+2019-12-05 14:28:11,396 INFO 1496 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2191502,"size":365,"blocks":8,"atimeMs":1575527291384.9814,"mtimeMs":1575527291385.5337,"ctimeMs":1575527291385.5337,"birthtimeMs":1575526323192.0237,"atime":"2019-12-05T06:28:11.385Z","mtime":"2019-12-05T06:28:11.386Z","ctime":"2019-12-05T06:28:11.386Z","birthtime":"2019-12-05T06:12:03.192Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-05 14:28:42,155 WARN 1496 [agent:development] reload worker because /Users/zhangruiling/Desktop/zy/day04/egg-demo/app/controller/user.js change
+2019-12-05 14:28:41,953 INFO 1496 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2191502,"size":315,"blocks":8,"atimeMs":1575527321891.1355,"mtimeMs":1575527321892.5112,"ctimeMs":1575527321892.5112,"birthtimeMs":1575526323192.0237,"atime":"2019-12-05T06:28:41.891Z","mtime":"2019-12-05T06:28:41.893Z","ctime":"2019-12-05T06:28:41.893Z","birthtime":"2019-12-05T06:12:03.192Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-05 14:32:31,435 WARN 1496 [agent:development] reload worker because /Users/zhangruiling/Desktop/zy/day04/egg-demo/app/controller/user.js change
+2019-12-05 14:32:31,233 INFO 1496 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2191502,"size":530,"blocks":8,"atimeMs":1575527551170.951,"mtimeMs":1575527551172.6658,"ctimeMs":1575527551172.6658,"birthtimeMs":1575526323192.0237,"atime":"2019-12-05T06:32:31.171Z","mtime":"2019-12-05T06:32:31.173Z","ctime":"2019-12-05T06:32:31.173Z","birthtime":"2019-12-05T06:12:03.192Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-05 14:37:54,639 INFO 1496 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/app/controller","stat":{"dev":16777220,"mode":16877,"nlink":5,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2162314,"size":160,"blocks":0,"atimeMs":1575527874000,"mtimeMs":1575527874000,"ctimeMs":1575527874586.908,"birthtimeMs":1575524734000,"atime":"2019-12-05T06:37:54.000Z","mtime":"2019-12-05T06:37:54.000Z","ctime":"2019-12-05T06:37:54.587Z","birthtime":"2019-12-05T05:45:34.000Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-12-05 14:38:34,147 WARN 1496 [agent:development] reload worker because /Users/zhangruiling/Desktop/zy/day04/egg-demo/app/controller/user.js change
+2019-12-05 14:38:33,946 INFO 1496 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2191502,"size":706,"blocks":8,"atimeMs":1575527913883.44,"mtimeMs":1575527913884.0466,"ctimeMs":1575527913884.0466,"birthtimeMs":1575526323192.0237,"atime":"2019-12-05T06:38:33.883Z","mtime":"2019-12-05T06:38:33.884Z","ctime":"2019-12-05T06:38:33.884Z","birthtime":"2019-12-05T06:12:03.192Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-05 14:39:39,173 WARN 1496 [agent:development] reload worker because /Users/zhangruiling/Desktop/zy/day04/egg-demo/app/controller/user.js change
+2019-12-05 14:39:38,971 INFO 1496 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2191502,"size":808,"blocks":8,"atimeMs":1575527978803.6138,"mtimeMs":1575527978805.2708,"ctimeMs":1575527978805.2708,"birthtimeMs":1575526323192.0237,"atime":"2019-12-05T06:39:38.804Z","mtime":"2019-12-05T06:39:38.805Z","ctime":"2019-12-05T06:39:38.805Z","birthtime":"2019-12-05T06:12:03.192Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-05 14:45:55,934 INFO 1496 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/app/controller","stat":{"dev":16777220,"mode":16877,"nlink":5,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2162314,"size":160,"blocks":0,"atimeMs":1575528355000,"mtimeMs":1575528355000,"ctimeMs":1575528355882.7214,"birthtimeMs":1575524734000,"atime":"2019-12-05T06:45:55.000Z","mtime":"2019-12-05T06:45:55.000Z","ctime":"2019-12-05T06:45:55.883Z","birthtime":"2019-12-05T05:45:34.000Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-12-05 14:54:45,988 INFO 1609 [egg:logger] init all loggers with options: {"dir":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-05 14:54:45,997 INFO 1609 [egg:core] dump config after load, 5ms
+2019-12-05 14:54:46,024 INFO 1609 [egg-watcher] Start watching: ["/Users/zhangruiling/Desktop/zy/day04/egg-demo/app","/Users/zhangruiling/Desktop/zy/day04/egg-demo/config","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy","/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"]
+2019-12-05 14:54:46,024 INFO 1609 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app"
+2019-12-05 14:54:46,024 INFO 1609 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/config"
+2019-12-05 14:54:46,024 INFO 1609 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks"
+2019-12-05 14:54:46,024 INFO 1609 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy"
+2019-12-05 14:54:46,024 INFO 1609 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"
+2019-12-05 14:54:46,024 INFO 1609 [egg-watcher:agent] watcher start success
+2019-12-05 14:54:46,033 INFO 1609 [egg:core] dump config after ready, 2ms
+2019-12-05 14:55:17,516 INFO 1620 [egg:logger] init all loggers with options: {"dir":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-05 14:55:17,524 INFO 1620 [egg:core] dump config after load, 3ms
+2019-12-05 14:55:17,551 INFO 1620 [egg-watcher] Start watching: ["/Users/zhangruiling/Desktop/zy/day04/egg-demo/app","/Users/zhangruiling/Desktop/zy/day04/egg-demo/config","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy","/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"]
+2019-12-05 14:55:17,551 INFO 1620 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app"
+2019-12-05 14:55:17,552 INFO 1620 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/config"
+2019-12-05 14:55:17,552 INFO 1620 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks"
+2019-12-05 14:55:17,552 INFO 1620 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy"
+2019-12-05 14:55:17,552 INFO 1620 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"
+2019-12-05 14:55:17,552 INFO 1620 [egg-watcher:agent] watcher start success
+2019-12-05 14:55:17,558 INFO 1620 [egg:core] dump config after ready, 2ms
+2019-12-05 14:58:19,753 INFO 1649 [egg:logger] init all loggers with options: {"dir":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-05 14:58:19,761 INFO 1649 [egg:core] dump config after load, 3ms
+2019-12-05 14:58:19,789 INFO 1649 [egg-watcher] Start watching: ["/Users/zhangruiling/Desktop/zy/day04/egg-demo/app","/Users/zhangruiling/Desktop/zy/day04/egg-demo/config","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy","/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"]
+2019-12-05 14:58:19,789 INFO 1649 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app"
+2019-12-05 14:58:19,789 INFO 1649 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/config"
+2019-12-05 14:58:19,789 INFO 1649 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks"
+2019-12-05 14:58:19,789 INFO 1649 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy"
+2019-12-05 14:58:19,789 INFO 1649 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"
+2019-12-05 14:58:19,790 INFO 1649 [egg-watcher:agent] watcher start success
+2019-12-05 14:58:19,797 INFO 1649 [egg:core] dump config after ready, 3ms
+2019-12-05 15:03:34,777 INFO 1697 [egg:logger] init all loggers with options: {"dir":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-05 15:03:34,784 INFO 1697 [egg:core] dump config after load, 3ms
+2019-12-05 15:03:34,809 INFO 1697 [egg-watcher] Start watching: ["/Users/zhangruiling/Desktop/zy/day04/egg-demo/app","/Users/zhangruiling/Desktop/zy/day04/egg-demo/config","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy","/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"]
+2019-12-05 15:03:34,809 INFO 1697 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app"
+2019-12-05 15:03:34,809 INFO 1697 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/config"
+2019-12-05 15:03:34,810 INFO 1697 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks"
+2019-12-05 15:03:34,810 INFO 1697 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy"
+2019-12-05 15:03:34,810 INFO 1697 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"
+2019-12-05 15:03:34,810 INFO 1697 [egg-watcher:agent] watcher start success
+2019-12-05 15:03:34,817 INFO 1697 [egg:core] dump config after ready, 2ms
+2019-12-05 15:05:04,677 INFO 1721 [egg:logger] init all loggers with options: {"dir":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-05 15:05:04,684 INFO 1721 [egg:core] dump config after load, 4ms
+2019-12-05 15:05:04,707 INFO 1721 [egg-watcher] Start watching: ["/Users/zhangruiling/Desktop/zy/day04/egg-demo/app","/Users/zhangruiling/Desktop/zy/day04/egg-demo/config","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy","/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"]
+2019-12-05 15:05:04,707 INFO 1721 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app"
+2019-12-05 15:05:04,707 INFO 1721 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/config"
+2019-12-05 15:05:04,707 INFO 1721 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks"
+2019-12-05 15:05:04,707 INFO 1721 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy"
+2019-12-05 15:05:04,708 INFO 1721 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"
+2019-12-05 15:05:04,708 INFO 1721 [egg-watcher:agent] watcher start success
+2019-12-05 15:05:04,714 INFO 1721 [egg:core] dump config after ready, 2ms
+2019-12-05 16:52:08,182 INFO 2778 [egg:logger] init all loggers with options: {"dir":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-05 16:52:08,190 INFO 2778 [egg:core] dump config after load, 4ms
+2019-12-05 16:52:08,217 INFO 2778 [egg-watcher] Start watching: ["/Users/zhangruiling/Desktop/zy/day04/egg-demo/app","/Users/zhangruiling/Desktop/zy/day04/egg-demo/config","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy","/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"]
+2019-12-05 16:52:08,217 INFO 2778 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app"
+2019-12-05 16:52:08,217 INFO 2778 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/config"
+2019-12-05 16:52:08,217 INFO 2778 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks"
+2019-12-05 16:52:08,217 INFO 2778 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy"
+2019-12-05 16:52:08,217 INFO 2778 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"
+2019-12-05 16:52:08,218 INFO 2778 [egg-watcher:agent] watcher start success
+2019-12-05 16:52:08,222 ERROR 2778 nodejs.Error: clean_tmpdir 2 is not match 'a-z0-9_-' in clean_tmpdir 2.js
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:234:13
+    at Array.map (<anonymous>)
+    at defaultCamelize (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:232:21)
+    at getProperties (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:193:10)
+    at ScheduleLoader.parse (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:154:28)
+    at ScheduleLoader.load (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:25:26)
+    at module.exports (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:17:6)
+    at Schedule.init (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/schedule.js:29:27)
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/agent.js:13:20
+    at Object.callFn (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+
+pid: 2778
+hostname: zhangruilingdeMacBook-Pro.local
+
+2019-12-05 16:52:08,226 INFO 2778 [egg:core] dump config after ready, 3ms
+2019-12-05 16:53:07,066 INFO 2791 [egg:logger] init all loggers with options: {"dir":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-05 16:53:07,072 INFO 2791 [egg:core] dump config after load, 3ms
+2019-12-05 16:53:07,092 INFO 2791 [egg-watcher] Start watching: ["/Users/zhangruiling/Desktop/zy/day04/egg-demo/app","/Users/zhangruiling/Desktop/zy/day04/egg-demo/config","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy","/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"]
+2019-12-05 16:53:07,092 INFO 2791 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app"
+2019-12-05 16:53:07,092 INFO 2791 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/config"
+2019-12-05 16:53:07,092 INFO 2791 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks"
+2019-12-05 16:53:07,092 INFO 2791 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy"
+2019-12-05 16:53:07,092 INFO 2791 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"
+2019-12-05 16:53:07,093 INFO 2791 [egg-watcher:agent] watcher start success
+2019-12-05 16:53:07,096 ERROR 2791 nodejs.Error: clean_tmpdir 2 is not match 'a-z0-9_-' in clean_tmpdir 2.js
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:234:13
+    at Array.map (<anonymous>)
+    at defaultCamelize (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:232:21)
+    at getProperties (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:193:10)
+    at ScheduleLoader.parse (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:154:28)
+    at ScheduleLoader.load (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:25:26)
+    at module.exports (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:17:6)
+    at Schedule.init (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/schedule.js:29:27)
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/agent.js:13:20
+    at Object.callFn (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+
+pid: 2791
+hostname: zhangruilingdeMacBook-Pro.local
+
+2019-12-05 16:53:07,099 INFO 2791 [egg:core] dump config after ready, 3ms
+2019-12-05 16:59:50,442 INFO 2852 [egg:logger] init all loggers with options: {"dir":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-05 16:59:50,448 INFO 2852 [egg:core] dump config after load, 3ms
+2019-12-05 16:59:50,466 INFO 2852 [egg-watcher] Start watching: ["/Users/zhangruiling/Desktop/zy/day04/egg-demo/app","/Users/zhangruiling/Desktop/zy/day04/egg-demo/config","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy","/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"]
+2019-12-05 16:59:50,466 INFO 2852 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app"
+2019-12-05 16:59:50,467 INFO 2852 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/config"
+2019-12-05 16:59:50,467 INFO 2852 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks"
+2019-12-05 16:59:50,467 INFO 2852 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy"
+2019-12-05 16:59:50,467 INFO 2852 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"
+2019-12-05 16:59:50,467 INFO 2852 [egg-watcher:agent] watcher start success
+2019-12-05 16:59:50,470 ERROR 2852 nodejs.Error: clean_tmpdir 2 is not match 'a-z0-9_-' in clean_tmpdir 2.js
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:234:13
+    at Array.map (<anonymous>)
+    at defaultCamelize (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:232:21)
+    at getProperties (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:193:10)
+    at ScheduleLoader.parse (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:154:28)
+    at ScheduleLoader.load (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:25:26)
+    at module.exports (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:17:6)
+    at Schedule.init (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/schedule.js:29:27)
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/agent.js:13:20
+    at Object.callFn (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+
+pid: 2852
+hostname: zhangruilingdeMacBook-Pro.local
+
+2019-12-05 16:59:50,474 INFO 2852 [egg:core] dump config after ready, 3ms
+2019-12-09 19:29:11,848 INFO 2269 [egg:logger] init all loggers with options: {"dir":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-09 19:29:11,856 INFO 2269 [egg:core] dump config after load, 5ms
+2019-12-09 19:29:11,890 INFO 2269 [egg-watcher] Start watching: ["/Users/zhangruiling/Desktop/zy/day04/egg-demo/app","/Users/zhangruiling/Desktop/zy/day04/egg-demo/config","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy","/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"]
+2019-12-09 19:29:11,891 INFO 2269 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app"
+2019-12-09 19:29:11,891 INFO 2269 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/config"
+2019-12-09 19:29:11,891 INFO 2269 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks"
+2019-12-09 19:29:11,891 INFO 2269 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy"
+2019-12-09 19:29:11,891 INFO 2269 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"
+2019-12-09 19:29:11,892 INFO 2269 [egg-watcher:agent] watcher start success
+2019-12-09 19:29:11,896 ERROR 2269 nodejs.Error: clean_tmpdir 2 is not match 'a-z0-9_-' in clean_tmpdir 2.js
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:234:13
+    at Array.map (<anonymous>)
+    at defaultCamelize (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:232:21)
+    at getProperties (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:193:10)
+    at ScheduleLoader.parse (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:154:28)
+    at ScheduleLoader.load (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:25:26)
+    at module.exports (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:17:6)
+    at Schedule.init (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/schedule.js:29:27)
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/agent.js:13:20
+    at Object.callFn (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+
+pid: 2269
+hostname: zhangruilingdeMacBook-Pro.local
+
+2019-12-09 19:29:11,900 INFO 2269 [egg:core] dump config after ready, 3ms
+2019-12-10 14:11:38,485 INFO 1575 [egg:logger] init all loggers with options: {"dir":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-10 14:11:38,495 INFO 1575 [egg:core] dump config after load, 6ms
+2019-12-10 14:11:38,528 INFO 1575 [egg-watcher] Start watching: ["/Users/zhangruiling/Desktop/zy/day04/egg-demo/app","/Users/zhangruiling/Desktop/zy/day04/egg-demo/config","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy","/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"]
+2019-12-10 14:11:38,528 INFO 1575 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app"
+2019-12-10 14:11:38,529 INFO 1575 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/config"
+2019-12-10 14:11:38,529 INFO 1575 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks"
+2019-12-10 14:11:38,529 INFO 1575 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy"
+2019-12-10 14:11:38,529 INFO 1575 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"
+2019-12-10 14:11:38,530 INFO 1575 [egg-watcher:agent] watcher start success
+2019-12-10 14:11:38,534 ERROR 1575 nodejs.Error: clean_tmpdir 2 is not match 'a-z0-9_-' in clean_tmpdir 2.js
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:234:13
+    at Array.map (<anonymous>)
+    at defaultCamelize (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:232:21)
+    at getProperties (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:193:10)
+    at ScheduleLoader.parse (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:154:28)
+    at ScheduleLoader.load (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:25:26)
+    at module.exports (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:17:6)
+    at Schedule.init (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/schedule.js:29:27)
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/agent.js:13:20
+    at Object.callFn (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+
+pid: 1575
+hostname: zhangruilingdeMacBook-Pro.local
+
+2019-12-10 14:11:38,538 INFO 1575 [egg:core] dump config after ready, 3ms
+2019-12-10 20:23:32,152 INFO 2977 [egg:logger] init all loggers with options: {"dir":"/Users/zhangruiling/Desktop/zy/day04/egg-demo/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-10 20:23:32,160 INFO 2977 [egg:core] dump config after load, 3ms
+2019-12-10 20:23:32,196 INFO 2977 [egg-watcher] Start watching: ["/Users/zhangruiling/Desktop/zy/day04/egg-demo/app","/Users/zhangruiling/Desktop/zy/day04/egg-demo/config","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks","/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy","/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"]
+2019-12-10 20:23:32,196 INFO 2977 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app"
+2019-12-10 20:23:32,196 INFO 2977 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/config"
+2019-12-10 20:23:32,196 INFO 2977 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks"
+2019-12-10 20:23:32,196 INFO 2977 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/mocks_proxy"
+2019-12-10 20:23:32,196 INFO 2977 [egg-watcher] Start watching: "/Users/zhangruiling/Desktop/zy/day04/egg-demo/app.js"
+2019-12-10 20:23:32,197 INFO 2977 [egg-watcher:agent] watcher start success
+2019-12-10 20:23:32,201 ERROR 2977 nodejs.Error: clean_tmpdir 2 is not match 'a-z0-9_-' in clean_tmpdir 2.js
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:234:13
+    at Array.map (<anonymous>)
+    at defaultCamelize (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:232:21)
+    at getProperties (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:193:10)
+    at ScheduleLoader.parse (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:154:28)
+    at ScheduleLoader.load (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:25:26)
+    at module.exports (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/load_schedule.js:17:6)
+    at Schedule.init (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/lib/schedule.js:29:27)
+    at /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/agent.js:13:20
+    at Object.callFn (/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+
+pid: 2977
+hostname: zhangruilingdeMacBook-Pro.local
+
+2019-12-10 20:23:32,206 INFO 2977 [egg:core] dump config after ready, 4ms

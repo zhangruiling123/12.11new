@@ -1,0 +1,279 @@
+{
+  "keys": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/config/config.default.js",
+  "security": {
+    "csrf": {
+      "enable": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/config/config.default.js",
+      "type": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "mysql": {
+    "client": {
+      "host": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/config/config.default.js",
+      "port": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/config/config.default.js",
+      "user": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/config/config.default.js",
+      "password": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/config/config.default.js",
+      "database": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/config/config.default.js"
+    },
+    "default": {
+      "database": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-mysql/config/config.default.js"
+    },
+    "app": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-mysql/config/config.default.js",
+    "agent": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-mysql/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-view/config/config.default.js"
+  },
+  "validate": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-validate/config/config.default.js",
+  "env": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+  "name": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "version": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "description": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "main": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "dev": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "keywords": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "author": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "license": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "strict": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+      "depth": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "env": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "level": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "logging": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+      "port": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg/config/config.default.js"
+}

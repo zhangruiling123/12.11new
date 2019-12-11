@@ -1,0 +1,60 @@
+2019-12-05 13:57:48,034 INFO 1442 [Timer] /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 52331968ms at 2019-12-06 04:30:00.002
+2019-12-05 13:57:48,034 INFO 1442 [Timer] /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 36131966ms at 2019-12-06 00:00:00.000
+2019-12-05 13:57:48,034 INFO 1442 [Timer] /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 36132966ms at 2019-12-06 00:00:01.000
+2019-12-05 13:57:47,982 INFO 1443 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 13:57:47,982 INFO 1443 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-05 13:57:47,982 INFO 1443 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 13:58:16,436 INFO 1449 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 13:58:16,436 INFO 1449 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-05 13:58:16,436 INFO 1449 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 14:13:53,784 INFO 1464 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 14:13:53,784 INFO 1464 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-05 14:13:53,784 INFO 1464 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 14:16:32,473 INFO 1475 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 14:16:32,473 INFO 1475 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-05 14:16:32,473 INFO 1475 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 14:16:35,913 INFO 1476 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 14:16:35,913 INFO 1476 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-05 14:16:35,913 INFO 1476 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 14:23:30,569 INFO 1496 [Timer] /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50789432ms at 2019-12-06 04:30:00.001
+2019-12-05 14:23:30,570 INFO 1496 [Timer] /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 34589431ms at 2019-12-06 00:00:00.001
+2019-12-05 14:23:30,570 INFO 1496 [Timer] /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34590430ms at 2019-12-06 00:00:01.000
+2019-12-05 14:23:30,521 INFO 1497 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 14:23:30,521 INFO 1497 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-05 14:23:30,521 INFO 1497 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 14:27:03,815 INFO 1503 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 14:27:03,815 INFO 1503 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-05 14:27:03,815 INFO 1503 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 14:28:03,846 INFO 1504 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 14:28:03,846 INFO 1504 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-05 14:28:03,846 INFO 1504 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 14:28:11,947 INFO 1505 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 14:28:11,947 INFO 1505 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-05 14:28:11,947 INFO 1505 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 14:28:42,534 INFO 1506 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 14:28:42,534 INFO 1506 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-05 14:28:42,534 INFO 1506 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 14:32:31,820 INFO 1510 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 14:32:31,820 INFO 1510 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-05 14:32:31,820 INFO 1510 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 14:38:34,490 INFO 1522 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 14:38:34,490 INFO 1522 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-05 14:38:34,490 INFO 1522 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 14:39:39,550 INFO 1525 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 14:39:39,550 INFO 1525 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-05 14:39:39,550 INFO 1525 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 14:54:46,413 INFO 1610 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 14:54:46,413 INFO 1610 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-05 14:54:46,413 INFO 1610 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 14:55:17,920 INFO 1621 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 14:55:17,920 INFO 1621 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-05 14:55:17,920 INFO 1621 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 14:58:20,191 INFO 1650 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 14:58:20,191 INFO 1650 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-05 14:58:20,191 INFO 1650 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 15:03:35,174 INFO 1698 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 15:03:35,174 INFO 1698 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-05 15:03:35,174 INFO 1698 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 15:05:05,069 INFO 1722 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 15:05:05,069 INFO 1722 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-05 15:05:05,069 INFO 1722 [egg-schedule]: register schedule /Users/zhangruiling/Desktop/zy/day04/egg-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
